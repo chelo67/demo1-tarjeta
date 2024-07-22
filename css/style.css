@@ -97,5 +97,35 @@ header {
     color: var(--color-oscuro);
     text-align: center;
     font-weight: 500;
-    margin-top: 5px;
+    margin-top: 8px;
+}
+
+/* Contacto */
+.contacto {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contacto h2 {
+    font-family: var(--texto-secundario);
+    font-size: 2.2rem;
+    color: var(--texto-color-title);
+    text-align: center;
+}
+.item-contacto {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    justify-items:center;
+    margin-top: 10px;
+}
+.icon-contacto{
+    width: 60px;
+    height: 60px;
+    color: #7B5F2E;
 }
